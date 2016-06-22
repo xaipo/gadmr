@@ -1,0 +1,411 @@
+.fondo {
+    background-color: @color-fondo;
+    display: block!important;
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, x-ng-cloak {
+    display: none!important;
+}
+
+/* Barra lateral izquierda del Menu */
+.MenuLeft {
+    padding: 5px 3px;
+	
+	& legend {
+        font-size: 14px;
+        border-bottom-color: rgba(255, 255, 255, 0.1);
+    }
+	& label {
+        display: block;
+    }
+	& .transacciones {
+        overflow-y: auto;
+        overflow-x: hidden;
+        height: 100%;
+    }
+	& .aplicaciones {
+        color: @color-aplicaciones;
+        text-shadow: none;
+		padding: 9px;
+        margin-bottom: 10px;
+        margin-right: 8px;
+        background-color: @bgcolor-aplicaciones;
+        border: 1px solid #1860aa;
+		
+		&:hover {
+			color: #fff;
+            background-color: #c51266;
+            border: 1px solid #FFFFFF;
+        }
+    }
+    & .aplicacionActiva {
+        background-color: #26A9E0;
+        color: @bgcolor-aplicaciones;
+    }
+	& .modulos {
+		color: @color-modulos;
+		padding: 10px;
+		border-top: 1px solid rgba(255, 255, 255, 0.1);
+		
+		&:hover {
+			background: none!important;
+		}
+	}
+    & .listaTransacciones {
+        padding-left: 25px;
+
+        & a {
+            padding-top: 8px!important;
+            padding-bottom: 8px!important;
+            padding-left: 0px!important;
+            font-weight: 300!important;
+
+          &:hover {
+			color: #fff;
+            background-color: #65A9EA;
+            
+        }
+    }
+}
+}
+
+.transaccionActiva a {
+    background: #26A9E0;
+    color: @color-menu !important;
+}
+
+/* Barra horizontal superior */
+#toolbar {
+    background: @color-menu-top;
+    border-bottom: 1px solid rgb(230, 230, 230);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: auto;
+    height: 44px;
+	
+	& h1 {
+        position: absolute;
+        top: 0;
+        right: 0px;
+        color: @color-tituloMenu;
+        font-size: 13px;
+        line-height: 22px;
+        text-align: center;
+        left: 44px;
+        font-weight: bold;
+        margin-top: 10px;
+        margin-right: 4px;
+        text-transform: uppercase;
+    }
+}
+
+.botonMenu {
+    display: block;
+    width: 25px;
+    height: 20px;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+/* INI Grid */
+.filaGrid {
+    font-size: 12px;
+    color: #000000;
+}
+
+.pieGrid {
+
+    & > td {
+        font-size: 12px;
+        font-weight: bold;
+        background-color: #EBEBEB!important;
+        color: black;
+    }
+}
+
+.tituloGrid  {
+	& span{
+		font-size: 12px;
+		font-weight: bold;
+		text-align: center;
+		margin-bottom: 0px;
+	}
+	& td {
+		padding-top: 3px!important;
+		padding-bottom: 3px!important;
+	}
+}
+
+.cabeceraGrid {
+    background-color: @color-fondotitulo;
+    color: @color-textotitulo;
+    cursor: pointer;
+    font-size: 12px;
+    text-align: center;
+	
+	& tr > th {
+        vertical-align: middle!important;
+    }
+}
+
+.centrado {
+    margin: 0 auto;
+}
+
+.td button span.ng-binding {
+    color: blue;
+}   
+
+.ocultar {
+    display: none;
+}
+
+.subtitleblue {
+    font-family: tahoma;
+    font-weight: bold!important;
+    text-align: left;
+}
+
+.errores {
+    color: @color-errortexto;
+    margin-bottom: 0px;
+}
+
+.errores-grid {
+    background-color: @color-errorgrid;
+}
+
+.checkBtn {
+    min-height: 0px;
+    margin: 0 0!important;
+}
+
+.linkInactivo{
+	&:hover, &:active{
+		color: #808080;
+		text-decoration: none;
+	}
+}
+
+.cabeceraDatos {
+    padding: 5px 7px;
+    margin-top: 10px;
+}
+
+.animate-enter, .animate-leave {
+    -webkit-transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    -moz-transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    -ms-transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    -o-transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    transition: 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750) all;
+    position: relative;
+    display: block;
+}
+
+    .animate-leave.animate-leave-active, .animate-enter {
+        -webkit-transform: scaleY(0);
+        -moz-transform: scaleY(0);
+        -ms-transform: scaleY(0);
+        -o-transform: scaleY(0);
+        transform: scaleY(0);
+        height: 0px;
+        opacity: 0;
+    }
+
+	.animate-enter.animate-enter-active, .animate-leave {
+		-webkit-transform: scaleY(1);
+		-moz-transform: scaleY(1);
+		-ms-transform: scaleY(1);
+		-o-transform: scaleY(1);
+		transform: scaleY(1);
+		height: 30px;
+		opacity: 1;
+	}
+
+.error-template {
+    padding: 0px 15px;
+    text-align: center;
+}
+
+.error-actions {
+    margin-top: 15px;
+    margin-bottom: 15px;
+	
+	& .btn {
+        margin-right: 10px;
+    }
+}
+
+.mensajeActivo {
+    background-color: @color-primario!important;
+}
+
+.cuadroMenu {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 5px;
+	
+	& label {
+        display: inline;
+    }
+
+    & .titulo {
+        text-align: center;
+        display: block;
+    }
+}
+
+.logoBanco{
+    height: 120px;
+}
+
+.logoBancoXS {
+    width: 30px;
+}
+
+.logoComprobante{
+    height: 70px;
+}
+
+.colIcono{
+    width: 40px;
+}
+
+input[type="text"]
+{
+    text-transform: uppercase;
+}
+/* cuando el foco este en el input desaparesca el placeholder */
+input:focus::-webkit-input-placeholder { opacity: 0;}
+   /* WebKit browsers */
+input:focus::-webkit-input-placeholder { color:transparent; }
+    /* Mozilla Firefox 4 to 18 */
+input:focus:-moz-placeholder { color:transparent; }
+    /* Mozilla Firefox 19+ */
+input:focus::-moz-placeholder { color:transparent; }
+    /* Internet Explorer 10+ */
+input:focus:-ms-input-placeholder { color:transparent; }
+
+.negrita{
+    font-weight: bold;
+}
+
+.bordeado{
+    border: 1px groove #FFFFFF !important;
+    border-color: #FFFFFF!important
+}
+
+.tabLogin{
+    & > ul {
+        & > li {
+            & > a {
+                padding: 1px 5px;
+            }
+        }
+    }
+}
+
+.espacio-cabecera {
+    margin-top: 70px;
+}
+
+.TituloMenu {
+    color: #818085;
+}
+
+.panelIngreso {
+    border: #999 1px solid;
+    padding-top: 5px;
+}
+
+span {
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+.titulosLogin {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #D6468D;
+}
+
+a {
+    color: blue;
+    font-size: 12px;
+}
+
+.li_normal {
+    color: #818085;
+    font-family: sans-serif !important;
+    font-size: 10px !important;
+}
+
+.Nota {
+    font-family: Tahoma;
+    font-size: 10px;
+    font-weight: bold;
+    color: #818085;
+    letter-spacing: 0.25pt;
+    line-height: 150%;
+}
+
+.label_ing {
+    font-size: 14px;
+    font-family: sans-serif;
+    font-style: normal;
+    color: #818085;
+    padding-right: 5px;
+    margin-bottom: 5px;
+}
+.contrato {
+        max-height: 300px;
+        height: 300px;
+        background-color: white;
+        border-collapse: separate;
+        border: 1px solid rgb(204, 204, 204);
+        padding: 4px;
+        box-sizing: content-box;
+        -webkit-box-shadow: rgba(0, 0, 0, 0.0745098) 0px 1px 1px 0px inset;
+        box-shadow: rgba(0, 0, 0, 0.0745098) 0px 1px 1px 0px inset;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+        border-bottom-left-radius: 3px;
+        border-top-left-radius: 3px;
+        overflow-y: scroll;
+        outline: none;
+    }
+
+.colorTitulo {
+    color:#e12479;
+}
+
+.marco {
+    border: 1px solid;
+    border-color: #ccc9be;
+    border-radius: 0px;
+    background-color: white;
+}
+
+.Condiciones{
+    color: #1a60aa;
+}
+
+.bordeCuadro{
+    color:#D5D1D1;
+}
+
+.barra {
+    background-color:#C9E9F6; 
+    height:15px;
+}
+
+.mensajeErrorPage{
+    color:#e12479
+}
+
+.customWidth {
+ width:90% !important;
+}

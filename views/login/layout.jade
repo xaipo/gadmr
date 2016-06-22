@@ -1,0 +1,13 @@
+doctype html
+html(data-ng-app="chatApp")
+  head
+      title= title
+      script(src="js/assets/head.min.js")
+
+  body
+      block content
+script(src="/js/assets/socket.io-1.3.4.js")
+script(src='/angular/angular.min.js')
+script(src='/angular-socket/socket.min.js')
+script(src="/js/configs/AppConfigSettings.js")
+script(src="/js/controllers/chatController.js")

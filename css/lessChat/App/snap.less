@@ -1,0 +1,299 @@
+body {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+	
+	& .viewport {
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		overflow: hidden;
+		
+		& .frame {
+			position: absolute;
+			width: 200%;
+			height: 100%;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			
+			& .navbar .navbar-inner {
+				border-radius: 0;
+				padding-left: 5px;
+				text-align: center;
+				color: grey;
+				font-size: 1.2em;
+				line-height: 38px;
+			}
+			& .menu {
+				height: 100%;
+				
+				&.collapse {
+					float: left;
+					height: 100% !important;
+					width: auto;
+					
+					&.height {
+						position: relative;
+						height: 0;
+						overflow: hidden;
+						-webkit-transition: height 0.35s ease;
+						-moz-transition: height 0.35s ease;
+						-o-transition: height 0.35s ease;
+						transition: height 0.35s ease;
+					}
+					&.width {
+						position: relative;
+						width: 0;
+						overflow: hidden;
+						-webkit-transition: width 0.35s ease;
+						-moz-transition: width 0.35s ease;
+						-o-transition: width 0.35s ease;
+						transition: width 0.35s ease;
+					}
+					&.in.width {
+						width: auto;
+					}
+					&.in.height {
+						height: auto;
+					}
+				}
+			
+				& .collapse-inner {
+					position: relative;
+					width: 250px;
+					height: 100%;
+				}
+				& .nav-stacked {
+					padding: 0 10px;
+				}
+			}
+			& .view {
+				width: 50%;
+				height: 100%;
+				overflow: hidden;
+				
+				& .navbar .navbar-inner .btn-navbar {
+					display: block;
+					float: left;
+				}
+				& #content {
+					margin: auto 15px;
+					text-align: justify;
+				}
+			}
+		}
+	}
+}
+
+html, body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.snap-content {
+  background: @color-fondo;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: auto;
+  height: auto;
+  z-index: 2;
+  overflow: auto;
+  /*overflow-x: hidden;*/
+  -webkit-overflow-scrolling: touch;
+  -webkit-transform: translate3d(0, 0, 0);
+     -moz-transform: translate3d(0, 0, 0);
+      -ms-transform: translate3d(0, 0, 0);
+       -o-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+  box-shadow: 0 2px 4px rgb(230, 230, 230);
+}
+
+.snap-drawers {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: auto;
+  height: auto;
+}
+
+.snap-drawer {
+  position: absolute;
+  top: 0;
+  right: auto;
+  bottom: 0;
+  left: auto;
+  height: auto;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  -webkit-transition: width 0.3s ease;
+     -moz-transition: width 0.3s ease;
+      -ms-transition: width 0.3s ease;
+       -o-transition: width 0.3s ease;
+          transition: width 0.3s ease;
+		  
+	&-left {
+	  left: 0;
+	  z-index: 1;
+	}
+	&-right {
+	  right: 0;
+	  z-index: 1;
+	}
+
+}
+
+
+.snapjs-left .snap-drawer-right,
+.snapjs-right .snap-drawer-left {
+  display: none;
+}
+
+.snapjs-expand-left .snap-drawer-left,
+.snapjs-expand-right .snap-drawer-right {
+  width: 100%;
+}
+
+/* SNAP Show "Left" drawer for the "Right" drawer in the demo */
+.snapjs-right .snap-drawer-left {
+    display: block;
+    right: 0;
+    left: auto;
+}
+
+/* Hide the actual "Right" drawer in the demo */
+.snapjs-right .snap-drawer-right {
+    display: none;
+}
+
+/* Demo toolbar styles */
+
+
+#no-drag,
+#do-drag {
+    width: 98%;
+    height: 90%;
+    background: red;
+}
+#do-drag{
+    background: green;
+}
+
+/* Styles for the social buttons in the demo */
+.demo-social {
+    padding: 0 15px;
+}
+
+/* Show the translucent white "Toggle" boxes in the demo */
+.toggler {
+    width: 80%;
+    background: rgba(255,255,255,0.5);
+    margin: 0 auto;
+    position: relative;
+    top: 70px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Styles for expanding "Search" input in the "Expanding" demo */
+.search {
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+#search {
+    height: 30px;
+    width: 87%;
+    margin: 7px 7px 0 7px;
+    background: linear-gradient(#414A5A,#4C5464);
+    background: -webkit-linear-gradient(#414A5A,#4C5464);
+    padding-left: 15px;
+    border: 1px solid #222936;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    -webkit-box-shadow: inset 0 1px 2px -1px rgba(0, 0, 0, 0.5),0 1px 2px -1px rgba(255, 255, 255, 0.4);
+    -moz-box-shadow: inset 0 1px 2px -1px rgba(0, 0, 0, 0.5),0 1px 2px -1px rgba(255, 255, 255, 0.4);
+    box-shadow: inset 0 1px 2px -1px rgba(0, 0, 0, 0.5),0 1px 2px -1px rgba(255, 255, 255, 0.4);
+	
+	&:focus {
+		outline: none;
+		border-color: #151515;
+	}
+}
+
+
+/* Styles for fading out the drawer content in the "Expanding" demo */
+.drawer-inner {
+    -webkit-transition: opacity 0.3s ease;
+    -moz-transition: opacity 0.3s ease;
+    -ms-transition: opacity 0.3s ease;
+    -o-transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease;
+}
+
+.snapjs-expand-left .drawer-inner,
+.snapjs-expand-right .drawer-inner {
+    opacity: 0;
+}
+
+/* Default demo styles */
+.snap-drawer {
+    background: @color-menu;
+    color: #eee;
+	
+	&s{
+	background: #323949;
+	}
+	& h3 {
+		font-size: 36px;
+		font-weight: normal;
+		margin: 15px;
+	}
+	& h4 {
+		padding: 15px;
+		border-top: 1px solid rgba(255, 255, 255, 0.1);
+		margin-bottom: 0;
+	}
+	& ul {
+		padding: 0;
+		margin: 0;
+		list-style-type: none;
+	}
+	& li > a {
+		display: block;
+		border-bottom: 1px solid rgba(0,0,0, 0.1);
+		border-top: 1px solid rgba(255, 255, 255, 0.1);
+		padding: 15px;
+		font-weight: bold;
+		/*text-shadow: 0 1px 0 #000;*/
+		text-decoration: none;
+		color: #ccc;
+		text-indent: 20px;
+	}
+	& p {
+		opacity: 0.5;
+		padding: 15px;
+		font-size: 12px;
+	}
+	& li > a {
+		color: #818085;
+	}
+}

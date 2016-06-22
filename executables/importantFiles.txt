@@ -1,0 +1,10 @@
+https://github.com/danialfarid/ng-file-upload/wiki/Node-example
+Upload
+https://github.com/danialfarid/ng-file-upload
+
+Mongo Schenma Data Types
+http://mongoosejs.com/docs/guide.html
+
+
+maps
+http://angular-ui.github.io/angular-google-maps/#!/api/marker

@@ -1,0 +1,29 @@
+Para generar los CSS se compila el archivo main.less, que incluira todos los fuentes less para generar el archivo de estilo final.
+El archivo final se debe de llamar main.min.css, debe de estar comprimido, minificado y en la siguiente ruta: css\main.min.css
+
+Comando para compilar con NodeJS: lessc main.less > ..\..\main.min.css -x --clean-css
+
+                                    lessc main.less >..\..\main.chat.css -x --clean-css
+
+
+                                    Esto vale
+                                    npm install less -g
+                                    npm install -g less-plugin-clean-css
+
+
+                  ----->>>
+                  cd "C:\Users\MaríaElena\Documents\Web Storm Projects\Default\css\lessChat"
+                  lessc --clean-css bootstrap.less ..\..\public\css\bootstrap.chat.css
+
+site.less -> estilos generals del sitio
+snap.less -> estilos del menu
+variable.less -> almacena las variables de los colores que usara ese banco
+main.less -> archive principal que incluye a todos los archivos less a ser compilados
+
+-------------------------------------------------------------------------------
+Cargar hojas de estilo en la app
+agregar el script head.js en la meta de la pagina principal
+
+        head.load(AppConfigSettings.Assets.cssLogin, function () {
+            //Hojas cargadas
+        });

@@ -1,0 +1,33 @@
+//
+   Created by xavier.moreno on 17/04/2015.
+
+extends layout
+block content
+   div(data-ng-controller="chatController", data-ng-init="pageLoading = true",data-ng-hide="pageLoading")
+       h1= title
+       p Welcome to #{title}
+       div(data-ng-hide="nicknameSucessful")
+           form(data-ng-submit="setNickname()")
+              label(for='nickname') Nickname:
+              input(type='text' data-ng-model="nickname")
+              button(type='submit').btn.btn-primary
+                span Ok
+           p(data-ng-show="errorNickname", data-ng-bind="errorNickname")
+
+       div(data-ng-show="nicknameSucessful")
+           form(data-ng-submit="sendMessage()")
+              textarea(data-ng-model="message")
+              input(type='submit')
+           section Users Connected
+               div(data-ng-repeat="nick in nicknames")
+               div(data-ng-bind="nick")
+
+           section Messages
+               div(data-ng-repeat="content in messages")
+                   div {{content.nick}}:{{content.message}}
+
+
+
+
+
+

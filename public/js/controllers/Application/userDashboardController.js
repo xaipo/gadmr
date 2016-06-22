@@ -59,7 +59,7 @@ app.controller('userDashboardCtrl', ['$scope', 'Upload', '$timeout', '$log', '$r
                 labelContent: userPost.title + "<br/>Usuario:" + userPost.username,
                 labelAnchor: "0 0",
                 labelClass: "marker-labels",
-                icon: '/img/pin3.png'
+                icon: '/img/pin4.png'
             };
             $scope.postsLocation.push(userPost.location);
         })

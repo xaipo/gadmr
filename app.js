@@ -47,6 +47,10 @@ app.get('/createPost', function (req, res) {
  return res.sendFile(__dirname + '/public/Views/Application/UserPost/CreatePost.html');
 });
 
+app.get('/qreader', function (req, res) {
+    return res.sendFile(__dirname + '/public/Views/Application/UserPost/qrReader.html');
+});
+
 
 // Requires multiparty
 multiparty = require('connect-multiparty'),

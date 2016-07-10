@@ -18,6 +18,7 @@ if (window.XMLHttpRequest && !(window.FileAPI && FileAPI.shouldLoad)) {
         orig.apply(this, arguments);
       }
     };
+    
   })(window.XMLHttpRequest.prototype.setRequestHeader);
 }
 

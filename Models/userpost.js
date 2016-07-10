@@ -1,5 +1,5 @@
 /**
- * Created by MaríaElena on 28/9/2015.
+ * Created by Marï¿½aElena on 28/9/2015.
  */
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
@@ -18,7 +18,8 @@ var postSchema = new Schema({
     status: String,
     likes: Number,
     state: String,
-    evidence: String
+    evidence: String,
+    mobilePic: Buffer
 });
 
 module.exports = mongoose.model('UserPost', postSchema);

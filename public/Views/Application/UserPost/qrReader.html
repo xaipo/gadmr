@@ -1,40 +1,106 @@
 <!DOCTYPE html>
 <html data-ng-app="MoviApp">
+<head>
+    <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.chat.css">
+
+    <script src="/js/assets/head.min.js"></script>
+    <script src="/js/assets/jquery.js"></script>
+    <script src="/js/assets/funcionesGenerales.js"></script>
+    <script src="/js/assets/angular.js"></script>
+    <script src="/js/assets/socket.io-1.3.4.js"></script>
+    <script src='/js/assets/socket.min.js'></script>
+    <script src="/js/assets/angular-resource.js"></script>
+    <script src="/js/assets/bootstrap.js"></script>
+    <script src="/js/assets/ekathuwa.js"></script>
+    <script src="/js/assets/lodash.js"></script>
+    <script src="/js/assets/angular-simple-logger-index.js"></script>
+    <script src="/js/assets/angular-google-maps.min.js"></script>
+    <script src="/js/assets/angular-route.js"></script>
+    <script src="/js/assets/angular-strap.min.js"></script>
+    <script src="/js/assets/angular-strap.tpl.min.js"></script>
+    <script src="/js/assets/angular-re-captcha.js"></script>
+    <script src="/js/assets/ng-file-upload.js"></script>
+    <script src="/js/assets/ng-file-upload-shim.js"></script>
+
+    <script src="/js/assets/qr-scanner.js"></script>
+    <script src="/js/assets/jsqrcode-combined.min.js"></script>
+
+
+    <script src="/js/index.js"></script>
+    <script src="/js/Directives/modals.js"></script>
+    <script src="/js/services/SharedServices.js"></script>
+    <script src="/js/assets/ng-file-upload.js"></script>
+    <script src="/js/assets/ng-file-upload-shim.js"></script>
+    <script src="/js/configs/AppConfigSettings.js"></script>
+    <script src="/js/controllers/Application/UserPost/qrReaderController.js"></script>
+</head>
+
 <body data-ng-controller="qrCrtl">
 
-<qr-scanner width="400" height="300" ng-success="onSuccess(data)" ng-error="onError(error)"/>
+<div class="container-fluid">
 
 
-<script src="/js/assets/head.min.js"></script>
-<script src="/js/assets/jquery.js"></script>
-<script src="/js/assets/funcionesGenerales.js"></script>
-<script src="/js/assets/angular.js"></script>
-<script src="/js/assets/socket.io-1.3.4.js"></script>
-<script src='/js/assets/socket.min.js'></script>
-<script src="/js/assets/angular-resource.js"></script>
-<script src="/js/assets/bootstrap.js"></script>
-<script src="/js/assets/ekathuwa.js"></script>
-<script src="/js/assets/lodash.js"></script>
-<script src="/js/assets/angular-simple-logger-index.js"></script>
-<script src="/js/assets/angular-google-maps.min.js"></script>
-<script src="/js/assets/angular-route.js"></script>
-<script src="/js/assets/angular-strap.min.js"></script>
-<script src="/js/assets/angular-strap.tpl.min.js"></script>
-<script src="/js/assets/angular-re-captcha.js"></script>
-<script src="/js/assets/ng-file-upload.js"></script>
-<script src="/js/assets/ng-file-upload-shim.js"></script>
+    <div class="panel  ">
+        <div class="panel-heading text-center">
+            <div class="" style="background-color:#122375">
+                <img src="/img/ICONO.png" style="width: 30%">
+            </div>
+        </div>
 
-<script src="/js/assets/qr-scanner.js"></script>
-<script src="/js/assets/jsqrcode-combined.min.js"></script>
+        <div class="panel-body">
+
+            <div class="text-center" ng-hide="postExist">
+                <qr-scanner width="800" height="800" ng-success="onSuccess(data)" ng-error="onError(error)"/>
+            </div>
+            <div ng-show="postExist">
+                <div class="row text-center">
+                    <button class="btn btn-primary" ng-click="postExist=false">
+                        <img src="/img/qr.png" />
+                    </button>
+                </div>
+                <br/>
+                <div class="col-sm-12 col-md-10 col-lg-offset-1">
+                    <div class="thumbnail">
+                        <h4 class="text-right"><span
+                                ng-class="userPost.state=='Resuelto'?'label-success':'label-warning'"
+                                class="label ">Estado: {{userPost.state}}</span>
+                        </h4>
+
+                        <img data-ng-show="!userPost.evidence" src="{{userPost.picture}}"
+                             class="img-rounded img-responsive media-object"
+                             style="width: auto; height: auto; max-width: 90%;max-height: 100%">
+
+                        <div data-ng-show="userPost.evidence" class="row">
+                            <div class="col-lg-6">
+                                <h4 class=""><label>Antes:</label></h4>
+                                <img src="{{userPost.picture}}"
+                                     class="img-rounded img-responsive media-object ">
+                            </div>
+                            <div class="col-lg-6">
+                                <h4 class=""><label>Después:</label></h4>
+                                <img src="{{userPost.evidence}}" class="img-rounded img-responsive media-object "
+                                     >
+                            </div>
+                        </div>
+                        <div class="caption">
+                            <h3><span data-ng-bind="userPost.title"></span></h3>
+
+                            <h4><span data-ng-bind="userPost.detail" style="color:#343434"></span></h4>
+                            <label class="control-label">Categoria: {{userPost.category}}</label>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
 
 
+</div>
 
-<script src="/js/index.js"></script>
-<script src="/js/Directives/modals.js"></script>
-<script src="/js/services/SharedServices.js"></script>
-<script src="/js/assets/ng-file-upload.js"></script>
-<script src="/js/assets/ng-file-upload-shim.js"></script>
-<script src="/js/configs/AppConfigSettings.js"></script>
-<script src="/js/controllers/Application/UserPost/qrReaderController.js"></script>
+
 </body>
 </html>

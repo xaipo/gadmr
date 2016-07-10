@@ -12,7 +12,7 @@ Comando para compilar con NodeJS: lessc main.less > ..\..\main.min.css -x --clea
 
 
                   ----->>>
-                  cd "C:\Users\MaríaElena\Documents\Web Storm Projects\Default\css\lessChat"
+                  cd "C:\YanapayRio\gadmr\css\lessChat"
                   lessc --clean-css bootstrap.less ..\..\public\css\bootstrap.chat.css
 
 site.less -> estilos generals del sitio

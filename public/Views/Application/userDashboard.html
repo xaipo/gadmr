@@ -30,6 +30,9 @@
     <script src="/js/assets/ng-file-upload.js"></script>
     <script src="/js/assets/ng-file-upload-shim.js"></script>
 
+    <!--<script src="/js/assets/qr-scanner.js"></script>-->
+    <!--<script src="/js/assets/jsqrcode-combined.min.js"></script>-->
+
     <script src="/js/controllers/Application/userDashboardController.js"></script>
     <!--<script src="//maps.googleapis.com/maps/api/js?v=3.exp&sensor=true"></script>-->
     <script src='//maps.googleapis.com/maps/api/js?sensor=true'></script>
@@ -148,21 +151,21 @@
                                                  style="width: auto; height: auto; max-width: 100%;max-height: 100%">
                                         </div>
                                         <div class="col-lg-6">
-                                            <h4 class=""><label>Despues:</label></h4>
+                                            <h4 class=""><label>Después:</label></h4>
                                             <img src="{{item.evidence}}" class="img-rounded img-responsive media-object"
-                                                 style="width: auto; height: auto; max-width: 90%;max-height: 100%">
+                                                 style="width: auto; height: auto; max-width: 100%;max-height: 100%">
                                         </div>
                                     </div>
                                     <div class="caption">
                                         <div class="text-center">
 
                                             <h4><a style="cursor: pointer" ng-click="goToLocation(item)">Ver
-                                                Ubicacion</a>
+                                                Ubicación</a>
                                             </h4>
                                         </div>
                                         <h3><span data-ng-bind="item.title"></span></h3>
 
-                                        <p><span data-ng-bind="item.detail"></span></p>
+                                        <h4><span data-ng-bind="item.detail" style="color:#343434"></span></h4>
                                         <label class="control-label">Categoria: {{item.category}}</label>
 
                                         <div class="input-group" role="group">

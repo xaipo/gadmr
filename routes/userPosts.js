@@ -24,7 +24,7 @@ router.route('/saveImage')
 router.route('/getImage')
     .get(function (req, res) {
 
-        UserPost.findById("560b8a128a0d4704053fea1f", function (err, doc) {
+        UserPost.findById("560ed259674664e808445a63", function (err, doc) {
             if (err) return next(err);
             res.contentType(doc.picture.contentType);
             res.send(doc.picture.data);
@@ -32,6 +32,8 @@ router.route('/getImage')
 
 
     })
+    .
+
 router.route('/userPosts')
     .get(function (req, res) {
         UserPost.find(function (err, userPosts) {
@@ -42,6 +44,9 @@ router.route('/userPosts')
             res.json(userPosts);
         });
     });
+
+
+
 router.route('/userPosts/:id')
     .put(function (req, res) {
         UserPost.findOne({_id: req.params.id}, function (err, userPost) {
@@ -69,6 +74,12 @@ router.route('/userPosts/:id')
             });
         });
     })
-
-
+    .get(function (req, res) {
+        UserPost.findOne({_id: req.params.id}, function (err, userPost) {
+            if (err) {
+                return res.send(err);
+            }
+            res.json(userPost);
+        });
+    });
 module.exports = router;

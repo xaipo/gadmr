@@ -4,6 +4,7 @@
 
 'use strict';
 
+var app = angular.module('MoviApp', ['AppServices', 'AppModals', 'ngResource', 'ngFileUpload', 'mgcrea.ngStrap', 'reCAPTCHA', 'uiGmapgoogle-maps']);
 app.config(function (reCAPTCHAProvider) {
 
     //set Google API Public Key

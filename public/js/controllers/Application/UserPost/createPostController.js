@@ -5,7 +5,7 @@
 
 //inject angular file upload directives and services.
 
-
+var app = angular.module('MoviApp', ['AppServices', 'AppModals', 'ngResource', 'ngFileUpload', 'mgcrea.ngStrap', 'reCAPTCHA', 'uiGmapgoogle-maps']);
 app.controller('createPostCtrl', ['$scope', 'Upload', '$timeout', '$log', '$resource', '$window', 'MoviModals', function ($scope, Upload, $timeout, $log, $resource, $window, MoviModals) {
 
     //$upload.upload({
@@ -15,7 +15,7 @@ app.controller('createPostCtrl', ['$scope', 'Upload', '$timeout', '$log', '$reso
     //    file: files
     //});
     $scope.map = {
-        center: {latitude: -0.18189495786972482, longitude: -78.4675376734192},
+        center: {latitude: -1.664156, longitude: -78.654493},
         zoom: 8
     };
 
@@ -27,8 +27,8 @@ app.controller('createPostCtrl', ['$scope', 'Upload', '$timeout', '$log', '$reso
     $scope.marker = {
         id: 0,
         coords: {
-            latitude: 40.1451,
-            longitude: -99.6680
+            latitude: -1.664156,
+            longitude: -78.654493
         },
         options: {draggable: true},
         events: {
@@ -94,14 +94,14 @@ app.controller('createPostCtrl', ['$scope', 'Upload', '$timeout', '$log', '$reso
     $scope.getCurrentLocation = function () {
         //temporal
         $scope.map = {
-            center: {latitude: -0.03332492883901059, longitude: -78.45309874582216},
+            center: {latitude: -1.653781, longitude: -78.642826},
             zoom: 15
         };
 
         $timeout(function () {
             $scope.marker.coords = {
-                latitude: -0.03332492883901059,//position.coords.latitude,
-                longitude: -78.45309874582216//position.coords.longitude
+                latitude: -1.653781,//position.coords.latitude,
+                longitude: -78.642826//position.coords.longitude
             };
             $scope.dynamicMoveCtr++;
         }, 1000);
@@ -138,7 +138,6 @@ app.controller('createPostCtrl', ['$scope', 'Upload', '$timeout', '$log', '$reso
             if (resOk) {
                 $scope.categories = resOk;
                 $scope.frmUserPost.category = $scope.categories[0];
-
             }
         });
     }

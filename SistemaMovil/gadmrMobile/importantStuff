@@ -1,0 +1,4 @@
+device tablet="4107cfc94eef2121"
+debug android: ionic run android -l -c
+run on tarjet: ionic run android --target=4107cfc94eef2121
+

@@ -1,0 +1,90 @@
+<ion-view view-title="YanapayRio">
+  <ion-content>
+    <ion-list>
+      <!--<ion-toggle ng-model="settings.enableFriends">-->
+      <!--Enable Friends-->
+      <!--</ion-toggle>-->
+      <div class="container-fluid">
+
+
+        <div class="panel  ">
+          <div class="panel-heading text-center">
+            <div class="" style="background-color:#122375">
+              <img src="img/ICONO.png" style="width: 30%">
+            </div>
+          </div>
+
+          <div class="panel-body">
+
+            <div class="text-center">
+              <button class="btn btn-primary" ng-click="scanBarcode()">
+                <img src="img/qr.png"/>
+              </button>
+              <!--<button class="button" ng-click="scanBarcode()">Scan1</button>-->
+            </div>
+            <div class="text-center" ng-hide="postExist">
+              <!--<qr-scanner width="800" height="800" ng-success="onSuccess(data)" ng-error="onError(error)"/>-->
+            </div>
+
+            <!--<div class="card">-->
+            <!--<div class="item">-->
+            <!--<button class="button button-block button-positive">-->
+            <!--<i class="icon ion-qr-scanner"></i>-->
+            <!--Scan Now-->
+            <!--</button>-->
+            <!--</div>-->
+            <!--</div>-->
+            <!--<div class="card">-->
+            <!--<div class="item item-divider">Scan Results</div>-->
+            <!--<div class="item item-text-wrap">{{vm.scanResults}}-->
+            <!--</div>-->
+            <!--</div>-->
+            <div ng-show="postExist">
+              <!--<div class="row text-center">-->
+                <!--<button class="btn btn-primary" ng-click="postExist=false">-->
+                  <!--<img src="img/qr.png"/>-->
+                <!--</button>-->
+              <!--</div>-->
+              <!--<br/>-->
+              <div class="col-sm-12 col-md-10 col-lg-offset-1">
+                <div class="thumbnail">
+                  <h4 class="text-right"><span
+                    ng-class="userPost.state=='Resuelto'?'label-success':'label-warning'"
+                    class="label ">Estado: {{userPost.state}}</span>
+                  </h4>
+
+                  <img data-ng-show="!userPost.evidence" src="{{userPostPicture}}"
+                       class="img-rounded img-responsive media-object"
+                       style="width: auto; height: auto; max-width: 90%;max-height: 100%">
+
+                  <div data-ng-show="userPost.evidence" class="row">
+                    <div class="col-lg-6">
+                      <h4 class=""><label>Antes:</label></h4>
+                      <img src="{{userPostPicture}}"
+                           class="img-rounded img-responsive media-object "
+                           style="width: auto; height: auto; max-width: 100%;max-height: 100%">
+                    </div>
+                    <div class="col-lg-6">
+                      <h4 class=""><label>Después:</label></h4>
+                      <img src="{{userPostEvidence}}" class="img-rounded img-responsive media-object "
+                           style="width: auto; height: auto; max-width: 100%;max-height: 100%">
+                    </div>
+                  </div>
+                  <div class="caption">
+                    <h3><span data-ng-bind="userPost.title"></span></h3>
+
+                    <h4><span data-ng-bind="userPost.detail" style="color:#343434"></span></h4>
+                    <label class="control-label">Categoria: {{userPost.category}}</label>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </ion-list>
+  </ion-content>
+</ion-view>

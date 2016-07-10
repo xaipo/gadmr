@@ -32,7 +32,7 @@ router.route('/getImage')
 
 
     })
-    .
+
 
 router.route('/userPosts')
     .get(function (req, res) {

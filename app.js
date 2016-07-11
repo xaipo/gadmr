@@ -63,7 +63,7 @@ multiparty = require('connect-multiparty'),
 app.post('/api/user/uploads', multipartyMiddleware, UserController.uploadFile);
 
 app.listen(3001);
-console.log("servidor ejecutando en el puerto 3000");
+console.log("servidor ejecutando en el puerto 3001");
 
 module.exports = app;
 

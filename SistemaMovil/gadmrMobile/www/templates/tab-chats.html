@@ -1,10 +1,10 @@
 <ion-view view-title="YanapayRio">
   <ion-content>
     <div class="row text-right">
-      <a href="#/tab/chats/1" class="button button-small button-positive">Crear Post</a>
+      <a href="#/tab/chats/1" class="button  button-positive ">Crear Post</a>
       <!--<input type="button" class="btn btn-primary" ng-click="gotoCreatePost()" value="Crear Post">-->
       <div class="pull-right">
-        <input type="button" class="pull-right button button-small button-positive" ng-click="updatePostList()" value="Actualizar">
+        <button type="button" class="pull-right button  button-positive icon ion-android-sync" ng-click="updatePostList()"> </button>
       </div>
     </div>
     <ion-list>
@@ -13,9 +13,9 @@
         <!--href="#/tab/chats/{{chat.id}}">-->
         <div class="col-sm-12 col-md-10 col-lg-offset-1">
           <div class="thumbnail">
-            <h4 class="text-right"><span
-              ng-class="userPost.state=='Resuelto'?'label-success':'label-warning'"
-              class="label ">Estado: {{userPost.state}}</span>
+            <h4 class="text-right item" style="border:none !important;"><span
+              ng-class="userPost.state=='Resuelto'?'label-success':'label-warning'" style="border:none !important;"
+              class="label">Estado: {{userPost.state}}</span>
             </h4>
 
             <img data-ng-show="!userPost.evidence" ng-src="{{getPostImage(userPost.picture);}}"
@@ -38,31 +38,31 @@
             <div class="caption">
               <div class="text-center">
 
-                <h4><a style="cursor: pointer" ng-click="openMaps(userPost)">Ver Ubicación</a>
+                <h4><a class="item ion-ios-location-outline icon-left" style="cursor: pointer; border: medium; color: blue;" ng-click="openMaps(userPost)">Ver Ubicación</a>
                 </h4>
               </div>
               <h3><span data-ng-bind="userPost.title"></span></h3>
 
               <h4><span data-ng-bind="userPost.detail" style="color:#343434"></span></h4>
-              <label class="control-label">Categoria: {{userPost.category}}</label>
+              <label class="control-label">Categoria: {{userPost.category}}</label><br>
 
 
-              <div class="list">
 
 
-                <div class="item item-button-left">
-                  <button class="icon-left ion-ios-star" ng-click="updateLikes(userPost);"
+            <br>
+
+              <center> <button class="icon-left ion-ios-star button button-small " ng-click="updateLikes(userPost);"
                           ng-style="userPost.textoApoyo?{'border-color': '#0f1c5f', 'background-color': '#122375', 'color': '#fff'}:
                                                         {'border-color': '#b2b2b2', 'background-color': '#f8f8f8', 'color': '#444'}"
-                  >Apoyo
-                  </button>
+                  >Apoyo<br></button></center>
+                  <br>
 
                 </div>
-                <label class="" data-ng-hide="userPost.likes==0"
+                <label class="item" data-ng-hide="userPost.likes==0"
                        style="">{{userPost.textoApoyo}}{{userPost.likes}}
                   personas {{userPost.textoApoyo?'más ':''}}apoyan esta
                   publicación</label>
-              </div>
+
 
 
             </div>

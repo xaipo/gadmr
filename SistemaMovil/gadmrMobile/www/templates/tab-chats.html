@@ -13,34 +13,34 @@
                 type="item-text-wrap">
         <!--href="#/tab/chats/{{chat.id}}">-->
         <div class="row responsive-sm">
-        <div class="col-sm-12 col-md-10 col-lg-offset-1 col" style="padding: 0px;">
+        <div class="  col" style="padding: 0px;">
           <div class="thumbnail" style="padding: 0px;">
             <div class="text-center"><h2 class="item" data-ng-bind="userPost.title"  style="background-color:#00408B; color: white"></h2><br></div>
 
-            <div class=".col-rigth">
-            <h4 class="text-right item" style="border:none !important;"><span
-              ng-class="userPost.state=='Resuelto'?'label-success':'label-warning'"  ng-style="userPost.state=='Resuelto'?{ 'color': 'green'}:
+
+            <h4 class="text-right item" style="border:none !important; padding-left: 0px;"><span
+               ng-style="userPost.state=='Resuelto'?{ 'color': 'green'}:
                                                         { 'color': 'red'}"style="border:none !important; padding-left: 0px !important;"
-              class="item ">Estado: {{userPost.state}}</span>
+              >Estado: {{userPost.state}}</span>
             </h4>
-            </div>
+
 
 
 <!--<p>{{userPost.mobilePic.data.data}}</p>-->
             <img class="full-image"  data-ng-show="!userPost.evidence" ng-src="{{userPost.picture?getPostImage(userPost.picture):userPost.mobilePicture;}}"
-                 class="img-rounded img-responsive media-object"
-                 style="width: auto; height: auto; max-width: 90%;max-height: 100%">
+                 class="img-rounded img-responsive media-object full-image"
+                 style="width: auto; height: auto; max-width: 100%;max-height: 100%">
 
-            <div data-ng-show="userPost.evidence" class="row">
+            <div data-ng-show="userPost.evidence" >
               <div class="col-lg-6 col">
                 <h4 class=""><label>Antes:</label></h4>
                 <img ng-src="{{getPostImage(userPost.picture);}}"
-                     class="img-rounded img-responsive media-object"
+                     class="img-rounded img-responsive media-object full-image"
                      style="width: auto; height: auto; max-width: 100%;max-height: 100%">
               </div>
               <div class="col-lg-6 col">
                 <h4 class=""><label>Después:</label></h4>
-                <img ng-src="{{getPostImage(userPost.evidence);}}" class="img-rounded img-responsive media-object"
+                <img ng-src="{{getPostImage(userPost.evidence);}}" class="img-rounded img-responsive media-object full-image"
                      style="width:  auto; height: auto; max-width: 100%;max-height: 100%">
               </div>
             </div>

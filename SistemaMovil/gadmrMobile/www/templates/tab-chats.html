@@ -20,8 +20,8 @@
               ng-class="userPost.state=='Resuelto'?'label-success':'label-warning'" style="border:none !important;"
               class="item ">Estado: {{userPost.state}}</span>
             </h4>
-
-            <img class="full-image"  data-ng-show="!userPost.evidence" ng-src="{{getPostImage(userPost.picture);}}"
+<!--<p>{{userPost.mobilePic.data.data}}</p>-->
+            <img class="full-image"  data-ng-show="!userPost.evidence" ng-src="{{userPost.picture?getPostImage(userPost.picture):userPost.mobilePicture;}}"
                  class="img-rounded img-responsive media-object"
                  style="width: auto; height: auto; max-width: 90%;max-height: 100%">
 

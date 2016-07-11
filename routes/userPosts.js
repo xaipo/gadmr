@@ -58,8 +58,9 @@ router.route('/userPosts')
         userPost.likes = req.body.likes;
         userPost.state = req.body.state;
         userPost.evidence = req.body.evidence;
-        userPost.mobilePic.data = req.body.mobilePic;
-        userPost.mobilePic.contentType = 'image/png';
+        userPost.mobilePicture=req.body.mobilePic;
+        //userPost.mobilePic.data = req.body.mobilePic;
+        //userPost.mobilePic.contentType = 'image/png';
 
         userPost.save(function (err, id) {
             if (err) {

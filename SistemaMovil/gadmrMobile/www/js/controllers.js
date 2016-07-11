@@ -133,9 +133,6 @@ angular.module('starter.controllers', [])
 
       $cordovaCamera.getPicture(options).then(function(imageData) {
         $scope.imgURI = "data:image/jpeg;base64," + imageData;
-        $scope.mobilePic=imageData;
-
-
       }, function(err) {
         // An error occured. Show a message to the user
       });
@@ -164,7 +161,7 @@ angular.module('starter.controllers', [])
         likes: 0,
         state: 'Pendiente',
         evidence: '',
-        mobilePic: $scope.mobilePic
+        mobilePic: $scope.imgURI
       }
       //alert(url);
       res.Invocar(data, function (resOk) {

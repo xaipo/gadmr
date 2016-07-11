@@ -19,6 +19,7 @@ var postSchema = new Schema({
     likes: Number,
     state: String,
     evidence: String,
+    mobilePicture: String,
     mobilePic: {data:Buffer, contentType:String}
 });
 

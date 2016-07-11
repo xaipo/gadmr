@@ -1,7 +1,7 @@
 angular.module('starter.services', [])
   .factory('ExpressService', function () {
     //IP UNACH: var serverUrl='http://192.168.181.247:3001';
-    var serverUrl='http://192.168.0.105:3001';
+    var serverUrl='http://192.168.0.102:3001';
     return {
       getUrl: function (url) {
         return serverUrl+url;

@@ -43,7 +43,31 @@ router.route('/userPosts')
 
             res.json(userPosts);
         });
-    });
+    })
+    .post(function (req, res) {
+
+        var userPost = new UserPost;
+
+        userPost.title = req.body.title;
+        userPost.picture = req.body.picture;
+        userPost.detail = req.body.detail;
+        userPost.location = req.body.location;
+        userPost.time = req.body.time;
+        userPost.username = req.body.username;
+        userPost.category = req.body.category;
+        userPost.likes = req.body.likes;
+        userPost.state = req.body.state;
+        userPost.evidence = req.body.evidence;
+        userPost.mobilePic.data = req.body.mobilePic;
+        userPost.mobilePic.contentType = 'image/png';
+
+        userPost.save(function (err, id) {
+            if (err) {
+                return res.send(err);
+            }
+            res.send({message: 'Post Added'});
+        });
+    })
 
 
 

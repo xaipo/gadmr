@@ -19,7 +19,7 @@ var postSchema = new Schema({
     likes: Number,
     state: String,
     evidence: String,
-    mobilePic: Buffer
+    mobilePic: {data:Buffer, contentType:String}
 });
 
 module.exports = mongoose.model('UserPost', postSchema);

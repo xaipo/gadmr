@@ -96,7 +96,7 @@ angular.module('starter.controllers', [])
       res.Invocar({}, function (resOk) {
         if (resOk) {
           $scope.categories = resOk;
-          $scope.frmUserPost.category = $scope.categories[0];
+          //$scope.frmUserPost.category = $scope.categories[0];
 
         }
       });
@@ -104,7 +104,16 @@ angular.module('starter.controllers', [])
     $scope.pageLoad = function () {
 
       $scope.username = 'UsuarioMovil';
+      $scope.frmUserPost={};
+      $scope.marker = {
+        id: 0,
+        coords: {
+          latitude: -1.664156,
+          longitude: -78.654493
+        }
+      };
       $scope.getCategories();
+
 
     }
 
@@ -116,56 +125,53 @@ angular.module('starter.controllers', [])
         sourceType : Camera.PictureSourceType.CAMERA,
         allowEdit : true,
         encodingType: Camera.EncodingType.JPEG,
-        targetWidth: 300,
-        targetHeight: 300,
+        targetWidth: 999,
+        targetHeight: 667,
         popoverOptions: CameraPopoverOptions,
         saveToPhotoAlbum: false
       };
 
       $cordovaCamera.getPicture(options).then(function(imageData) {
         $scope.imgURI = "data:image/jpeg;base64," + imageData;
-        alert(imageData);
+        $scope.mobilePic=imageData;
+
 
       }, function(err) {
         // An error occured. Show a message to the user
       });
     }
 
-    $scope.createPost = function (picture) {
+    $scope.createPost = function () {
       //primero subir imagen, despues guardar registro, al finzalizar mostrar mesnaje pequnpo y requesar apnatallla de posts.
-      picture.upload = Upload.upload({
-        url: 'api/user/uploads',
-        data: {
-          title: $scope.frmUserPost.postTitle,
-          file: picture,
-          detail: $scope.frmUserPost.postDetail,
-          location: $scope.marker.coords,
-          time: new Date(),
-          username: $scope.username ? $scope.username : "xavivacio",
-          category: $scope.frmUserPost.category.category,
-          likes: 0,
-          state: 'Pendiente',
-          evidence: ''
+      //alert("este"+$scope.frmUserPost.postTitle);
+
+      var url = ExpressService.getUrl("/api/userPosts");
+      var res = $resource('', {}, {
+        Invocar: {
+          url: url,
+          method: 'POST',
+          //isArray: true
         }
       });
-
-      picture.upload.then(function (response) {
-        $timeout(function () {
-          picture.result = response.data;
-        });
-        if (response.data.message == 'Post Added') {
-          alert('se anadio el post =)')
-          //MoviModals.mostrarModal($scope.modalCreatePost);
+      var data={
+        title: $scope.frmUserPost.postTitle,
+        //file: undefined,
+        detail: $scope.frmUserPost.postDetail,
+        location: $scope.marker.coords,
+        time: new Date(),
+        username: $scope.username ? $scope.username : "xavivacio",
+        category: $scope.frmUserPost.category.category,
+        likes: 0,
+        state: 'Pendiente',
+        evidence: '',
+        mobilePic: $scope.mobilePic
+      }
+      //alert(url);
+      res.Invocar(data, function (resOk) {
+        //alert(resOk);
+        if (resOk) {
+          alert("Publicacion Creada");
         }
-
-      }, function (response) {
-        if (response.status > 0)
-          $scope.errorMsg = response.status + ': ' + response.data;
-      });
-
-      picture.upload.progress(function (evt) {
-        // Math.min is to fix IE which reports 200% sometimes
-        picture.progress = Math.min(100, parseInt(100.0 * evt.loaded / evt.total));
       });
     }
     //$scope.chat = Chats.get($stateParams.chatId);

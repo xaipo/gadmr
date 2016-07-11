@@ -41,30 +41,41 @@
             <div class="caption">
               <div class="text-center">
 
-                <h4><a class="item ion-ios-location-outline icon-left" style="cursor: pointer; border: medium; color: blue;" ng-click="openMaps(userPost)">Ver Ubicación</a>
+                <h4><a class="item ion-ios-location-outline icon-left" style="cursor: pointer; border: medium; color: blue;" ng-click="openMaps(userPost)"> Ver Ubicación</a>
                 </h4>
               </div>
 
 
-             <div class="item item-body"><p id="text" class=" item-avatar"  data-ng-bind="userPost.detail"  style="color:#343434;  padding-left: 3px;" ></p></div><br>
-              <label class="item"  style="border: none !important;">Categoria: {{userPost.category}}</label><br>
+             <div class="item item-body"><p id="text" class=" item-avatar"  data-ng-bind="userPost.detail"  style="color:#343434;  padding-left: 3px;" ></p>
 
-
-
-
-
-
-              <center> <button class="icon-left ion-ios-star button button-small " ng-click="updateLikes(userPost);"
-                          ng-style="userPost.textoApoyo?{'border-color': '#0f1c5f', 'background-color': '#122375', 'color': '#fff'}:
+               <div class="col">
+               <button class="icon-left ion-ios-star button button-small subdued " ng-click="updateLikes(userPost);"
+                       ng-style="userPost.textoApoyo?{'border-color': '#0f1c5f', 'background-color': '#122375', 'color': '#fff'}:
                                                         {'border-color': '#b2b2b2', 'background-color': '#f8f8f8', 'color': '#444'}"
-                  >Apoyo<br></button></center>
+                 >Apoyo<br></button>
+
+
+               <label class=" subdued" data-ng-hide="userPost.likes==0"
+                      style="">{{userPost.textoApoyo}}{{userPost.likes}}
+                 personas {{userPost.textoApoyo?'más ':''}}apoyan esta
+                 publicación</label>
+
+                <br>
+                 <div class="text-right subdued"> <label   style="border: none !important;">Categoria: {{userPost.category}}</label><br></div>
+               </div>
+             </div><br>
+
+
+
+
+
+
+
+              <center> </center>
                   <br>
 
                 </div>
-                <label class="item" data-ng-hide="userPost.likes==0"
-                       style="">{{userPost.textoApoyo}}{{userPost.likes}}
-                  personas {{userPost.textoApoyo?'más ':''}}apoyan esta
-                  publicación</label>
+
 
 
 

@@ -11,6 +11,7 @@ angular.module('starter.controllers', [])
     //
     //$scope.$on('$ionicView.enter', function(e) {
     //});
+    $scope.detalle;
 
     $scope.$on('$ionicView.enter', function (e) {
       $scope.getUserPosts();
@@ -219,4 +220,10 @@ angular.module('starter.controllers', [])
     $scope.settings = {
       enableFriends: true
     };
+
+    $scope.shwoDetalle= function(){
+
+      alert($scope.detalle);
+      console.log($scope.detalle);
+    }
   });

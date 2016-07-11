@@ -1,6 +1,7 @@
 <ion-view view-title="YanapayRio">
-  <ion-content>
-    <div class="row text-right">
+
+  <ion-content >
+    <div class="row text-right" style="padding: 0px;">
       <a href="#/tab/chats/1" class="button  button-positive ">Crear Post</a>
       <!--<input type="button" class="btn btn-primary" ng-click="gotoCreatePost()" value="Crear Post">-->
       <div class="pull-right">
@@ -8,31 +9,33 @@
       </div>
     </div>
     <ion-list>
-      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="userPost in userPosts"
+      <div class="item-remove-animate item-avatar item-icon-right responsive-sm" ng-repeat="userPost in userPosts" ng-model="detalle" style="padding:0px !important;"
                 type="item-text-wrap">
         <!--href="#/tab/chats/{{chat.id}}">-->
-        <div class="col-sm-12 col-md-10 col-lg-offset-1">
-          <div class="thumbnail">
+        <div class="row responsive-sm">
+        <div class="col-sm-12 col-md-10 col-lg-offset-1 col" style="padding: 0px;">
+          <div class="thumbnail" style="padding: 0px;">
+            <div class="text-center"><h2 class="item" data-ng-bind="userPost.title"  style="background-color:#00408B; color: white"></h2><br></div>
             <h4 class="text-right item" style="border:none !important;"><span
               ng-class="userPost.state=='Resuelto'?'label-success':'label-warning'" style="border:none !important;"
-              class="label">Estado: {{userPost.state}}</span>
+              class="item ">Estado: {{userPost.state}}</span>
             </h4>
 
-            <img data-ng-show="!userPost.evidence" ng-src="{{getPostImage(userPost.picture);}}"
+            <img class="full-image"  data-ng-show="!userPost.evidence" ng-src="{{getPostImage(userPost.picture);}}"
                  class="img-rounded img-responsive media-object"
                  style="width: auto; height: auto; max-width: 90%;max-height: 100%">
 
             <div data-ng-show="userPost.evidence" class="row">
-              <div class="col-lg-6">
+              <div class="col-lg-6 col">
                 <h4 class=""><label>Antes:</label></h4>
                 <img ng-src="{{getPostImage(userPost.picture);}}"
                      class="img-rounded img-responsive media-object"
                      style="width: auto; height: auto; max-width: 100%;max-height: 100%">
               </div>
-              <div class="col-lg-6">
+              <div class="col-lg-6 col">
                 <h4 class=""><label>Después:</label></h4>
                 <img ng-src="{{getPostImage(userPost.evidence);}}" class="img-rounded img-responsive media-object"
-                     style="width: auto; height: auto; max-width: 100%;max-height: 100%">
+                     style="width:  auto; height: auto; max-width: 100%;max-height: 100%">
               </div>
             </div>
             <div class="caption">
@@ -41,15 +44,15 @@
                 <h4><a class="item ion-ios-location-outline icon-left" style="cursor: pointer; border: medium; color: blue;" ng-click="openMaps(userPost)">Ver Ubicación</a>
                 </h4>
               </div>
-              <h3><span data-ng-bind="userPost.title"></span></h3>
-
-              <h4><span data-ng-bind="userPost.detail" style="color:#343434"></span></h4>
-              <label class="control-label">Categoria: {{userPost.category}}</label><br>
 
 
+             <div class="item item-body"><p id="text" class=" item-avatar"  data-ng-bind="userPost.detail"  style="color:#343434;  padding-left: 3px;" ></p></div><br>
+              <label class="item"  style="border: none !important;">Categoria: {{userPost.category}}</label><br>
 
 
-            <br>
+
+
+
 
               <center> <button class="icon-left ion-ios-star button button-small " ng-click="updateLikes(userPost);"
                           ng-style="userPost.textoApoyo?{'border-color': '#0f1c5f', 'background-color': '#122375', 'color': '#fff'}:
@@ -65,6 +68,7 @@
 
 
 
+
             </div>
           </div>
         </div>
@@ -76,6 +80,7 @@
         <!--<ion-option-button class="button-assertive" ng-click="remove(chat)">-->
         <!--Delete-->
         <!--</ion-option-button>-->
+        </div>
       </ion-item>
     </ion-list>
   </ion-content>

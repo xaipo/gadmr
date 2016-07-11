@@ -1,471 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a5f9ffbc-557c-458c-98b6-d8abf4822c3c" name="Default" comment="pruebas">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/resources/android/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/resources/android/icon/drawable-hdpi-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/resources/android/icon/drawable-ldpi-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/resources/android/icon/drawable-mdpi-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/resources/android/icon/drawable-xhdpi-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/resources/android/icon/drawable-xxhdpi-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/resources/android/icon/drawable-xxxhdpi-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/resources/android/icon/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/resources/android/splash/drawable-land-hdpi-screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/resources/android/splash/drawable-land-ldpi-screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/resources/android/splash/drawable-land-mdpi-screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/resources/android/splash/drawable-land-xhdpi-screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/resources/android/splash/drawable-port-hdpi-screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/resources/android/splash/drawable-port-ldpi-screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/resources/android/splash/drawable-port-mdpi-screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/resources/android/splash/drawable-port-xhdpi-screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/resources/android/splash/drawable-port-xxhdpi-screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/resources/android/splash/drawable-port-xxxhdpi-screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/resources/android/splash/splash.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/img/ICONO.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/img/adam.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/img/ben.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/img/ionic.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/img/logo3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/img/max.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/img/mike.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/img/perry.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/img/pin2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/img/pin3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/img/pin4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/img/pinmap.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/img/qr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/img/reto.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/fonts/ionicons.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/fonts/ionicons.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/fonts/ionicons.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/ngCordova-icon.sketch" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/resources/ios/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/resources/ios/icon/icon-40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/resources/ios/icon/icon-40@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/resources/ios/icon/icon-50.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/resources/ios/icon/icon-50@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/resources/ios/icon/icon-60.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/resources/ios/icon/icon-60@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/resources/ios/icon/icon-60@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/resources/ios/icon/icon-72.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/resources/ios/icon/icon-72@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/resources/ios/icon/icon-76.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/resources/ios/icon/icon-76@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/resources/ios/icon/icon-small.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/resources/ios/icon/icon-small@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/resources/ios/icon/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/resources/ios/icon/icon@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/resources/ios/splash.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/resources/ios/splash/Default-568h@2x~iphone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/resources/ios/splash/Default-667h.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/resources/ios/splash/Default-736h.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/resources/ios/splash/Default-Landscape-736h.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/resources/ios/splash/Default-Landscape@2x~ipad.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/resources/ios/splash/Default-Landscape~ipad.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/resources/ios/splash/Default-Portrait@2x~ipad.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/resources/ios/splash/Default-Portrait~ipad.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/resources/ios/splash/Default@2x~iphone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/resources/ios/splash/Default~iphone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/media/sample.mp3" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/img/compass.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/img/demo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/img/ionic.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/img/spinglobe.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/angular/angular.min.js.gzip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ionic/fonts/ionicons.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ionic/fonts/ionicons.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ionic/fonts/ionicons.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/splash.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/.bowerrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/.editorconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/.idea/gadmrMobile.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/.idea/libraries/gadmrMobile_node_modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/.io-config.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/hooks/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/hooks/after_prepare/010_add_platform_class.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/importantStuff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/ionic.project" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/scss/ionic.app.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/js/controllers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/js/services.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/angular-resource/LICENSE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/angular-resource/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/angular-resource/angular-resource.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/angular-resource/angular-resource.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/angular-resource/angular-resource.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/angular-resource/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/angular-resource/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/angular-resource/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/css/ionic.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/css/ionic.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/fonts/ionicons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/js/angular-ui/angular-ui-router.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/js/angular-ui/angular-ui-router.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/js/angular/angular-animate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/js/angular/angular-animate.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/js/angular/angular-resource.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/js/angular/angular-resource.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/js/angular/angular-sanitize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/js/angular/angular-sanitize.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/js/angular/angular.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/js/angular/angular.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/js/ionic-angular.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/js/ionic-angular.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/js/ionic.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/js/ionic.bundle.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/js/ionic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/js/ionic.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/scss/_action-sheet.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/scss/_animations.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/scss/_backdrop.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/scss/_badge.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/scss/_bar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/scss/_button-bar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/scss/_button.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/scss/_checkbox.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/scss/_form.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/scss/_grid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/scss/_items.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/scss/_list.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/scss/_loading.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/scss/_menu.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/scss/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/scss/_modal.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/scss/_platform.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/scss/_popover.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/scss/_popup.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/scss/_progress.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/scss/_radio.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/scss/_range.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/scss/_refresher.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/scss/_reset.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/scss/_scaffolding.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/scss/_select.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/scss/_slide-box.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/scss/_slides.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/scss/_spinner.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/scss/_tabs.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/scss/_toggle.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/scss/_transitions.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/scss/_type.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/scss/_util.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/scss/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/scss/ionic.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/scss/ionicons/_ionicons-font.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/scss/ionicons/_ionicons-icons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/scss/ionicons/_ionicons-variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/scss/ionicons/ionicons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ionic/version.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/.bowerrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/.editorconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/CODE_OF_CONDUCT.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/config/build.config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/config/karma.conf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/.bowerrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/hooks/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/hooks/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/hooks/after_platform_add/010_install_plugins.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/hooks/after_plugin_add/010_register_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/hooks/after_plugin_rm/010_deregister_plugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/hooks/after_prepare/010_add_platform_class.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/hooks/after_prepare/020_remove_sass_from_platforms.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/hooks/before_platform_add/init_directories.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/init.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/ionic.project" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/about.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/adMob/adMob.ctrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/adMob/adMob.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/appAvailability/appAvailability.ctrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/appAvailability/appAvailability.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/appRate/appRate.ctrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/appRate/appRate.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/barcodeScanner/barcodeScanner.ctrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/barcodeScanner/barcodeScanner.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/batteryStatus/batteryStatus.ctrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/batteryStatus/batteryStatus.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/beacon/beacon.ctrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/beacon/beacon.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/camera/camera.ctrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/camera/camera.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/clipboard/clipboard.ctrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/clipboard/clipboard.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/contacts/contacts.ctrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/contacts/contacts.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/datePicker/datePicker.ctrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/datePicker/datePicker.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/device/device.ctrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/device/device.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/deviceMotion/deviceMotion.ctrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/deviceMotion/deviceMotion.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/deviceOrientation/deviceOrientation.ctrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/deviceOrientation/deviceOrientation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/dialogs/dialogs.ctrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/dialogs/dialogs.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/emailComposer/emailComposer.ctrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/emailComposer/emailComposer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/facebook/facebook.ctrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/facebook/facebook.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/file/file.ctrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/file/file.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/fileOpener2/fileOpener2.ctrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/fileOpener2/fileOpener2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/fileTransfer/fileTransfer.ctrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/fileTransfer/fileTransfer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/flashlight/flashlight.ctrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/flashlight/flashlight.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/geolocation/geolocation.ctrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/geolocation/geolocation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/globalization/globalization.ctrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/globalization/globalization.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/googleAnalytics/googleAnalytics.ctrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/googleAnalytics/googleAnalytics.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/healthkit/healthkit.ctrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/healthkit/healthkit.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/inAppBrowser/inAppBrowser.ctrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/inAppBrowser/inAppBrowser.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/insomnia/insomnia.ctrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/localNotification/localNotification.ctrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/localNotification/localNotification.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/media/media.ctrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/media/media.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/menu.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/network/network.ctrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/network/network.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/preferences/preferences.ctrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/preferences/preferences.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/printer/printer.ctrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/printer/printer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/pushNotifications/pushNotifications.ctrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/pushNotifications/pushNotifications.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/socialSharing/socialSharing.ctrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/socialSharing/socialSharing.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/sqlite/sqlite.ctrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/sqlite/sqlite.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/statusbar/statusbar.ctrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/statusbar/statusbar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/toast/toast.ctrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/toast/toast.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/touchid/touchid.ctrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/touchid/touchid.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/upsPushNotifications/pushNotifications.ctrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/upsPushNotifications/pushNotifications.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/vibration/vibration.ctrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/app/vibration/vibration.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/cordova.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/angular-animate/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/angular-animate/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/angular-animate/angular-animate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/angular-animate/angular-animate.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/angular-animate/angular-animate.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/angular-animate/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/angular-animate/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/angular-sanitize/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/angular-sanitize/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/angular-sanitize/angular-sanitize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/angular-sanitize/angular-sanitize.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/angular-sanitize/angular-sanitize.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/angular-sanitize/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/angular-sanitize/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/angular-ui-router/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/angular-ui-router/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/angular-ui-router/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/angular-ui-router/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/angular-ui-router/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/angular-ui-router/api/angular-ui-router.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/angular-ui-router/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/angular-ui-router/release/angular-ui-router.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/angular-ui-router/release/angular-ui-router.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/angular-ui-router/src/common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/angular-ui-router/src/resolve.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/angular-ui-router/src/state.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/angular-ui-router/src/stateDirectives.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/angular-ui-router/src/stateFilters.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/angular-ui-router/src/templateFactory.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/angular-ui-router/src/urlMatcherFactory.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/angular-ui-router/src/urlRouter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/angular-ui-router/src/view.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/angular-ui-router/src/viewDirective.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/angular-ui-router/src/viewScroll.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/angular/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/angular/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/angular/angular-csp.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/angular/angular.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/angular/angular.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/angular/angular.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/angular/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/angular/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/facebookConnectPlugin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/gmaps.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ionic/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ionic/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ionic/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ionic/css/ionic.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ionic/css/ionic.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ionic/fonts/ionicons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ionic/js/ionic-angular.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ionic/js/ionic-angular.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ionic/js/ionic.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ionic/js/ionic.bundle.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ionic/js/ionic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ionic/js/ionic.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ionic/scss/_action-sheet.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ionic/scss/_animations.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ionic/scss/_backdrop.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ionic/scss/_badge.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ionic/scss/_bar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ionic/scss/_button-bar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ionic/scss/_button.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ionic/scss/_checkbox.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ionic/scss/_form.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ionic/scss/_grid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ionic/scss/_items.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ionic/scss/_list.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ionic/scss/_loading.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ionic/scss/_menu.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ionic/scss/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ionic/scss/_modal.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ionic/scss/_platform.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ionic/scss/_popover.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ionic/scss/_popup.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ionic/scss/_progress.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ionic/scss/_radio.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ionic/scss/_range.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ionic/scss/_reset.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ionic/scss/_scaffolding.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ionic/scss/_select.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ionic/scss/_slide-box.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ionic/scss/_split-pane.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ionic/scss/_tabs.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ionic/scss/_toggle.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ionic/scss/_transitions.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ionic/scss/_type.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ionic/scss/_util.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ionic/scss/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ionic/scss/ionic.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ionic/scss/ionicons/_ionicons-animation.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ionic/scss/ionicons/_ionicons-font.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ionic/scss/ionicons/_ionicons-icons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ionic/scss/ionicons/_ionicons-variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ionic/scss/ionicons/ionicons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ngCordova/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ngCordova/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ngCordova/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ngCordova/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ngCordova/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ngCordova/dist/ng-cordova-mocks.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ngCordova/dist/ng-cordova-mocks.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ngCordova/dist/ng-cordova.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ngCordova/dist/ng-cordova.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/demo/www/lib/ngCordova/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/dist/ng-cordova-mocks.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/dist/ng-cordova-mocks.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/dist/ng-cordova.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/dist/ng-cordova.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/src/mocks/actionSheet.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/src/mocks/appVersion.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/src/mocks/barcodeScanner.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/src/mocks/ble.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/src/mocks/brightness.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/src/mocks/camera.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/src/mocks/capture.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/src/mocks/contacts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/src/mocks/datePicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/src/mocks/device.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/src/mocks/deviceMotion.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/src/mocks/deviceOrientation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/src/mocks/dialogs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/src/mocks/facebook.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/src/mocks/file.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/src/mocks/fileOpener2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/src/mocks/fileTransfer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/src/mocks/geolocation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/src/mocks/globalization.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/src/mocks/googleAnalytics.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/src/mocks/googlePlayGame.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/src/mocks/keyboard.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/src/mocks/keychain.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/src/mocks/localNotification.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/src/mocks/network.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/src/mocks/progressIndicator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/src/mocks/push.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/src/mocks/screenshot.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/src/mocks/socialSharing.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/src/mocks/splashscreen.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/src/mocks/sqlite.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/src/mocks/statusbar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/src/mocks/toast.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/src/mocks/vibration.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/src/module-mocks.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/src/module.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/test/mocks/actionSheet.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/test/mocks/barcodeScanner.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/test/mocks/brightness.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/test/mocks/camera.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/test/mocks/capture.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/test/mocks/contacts.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/test/mocks/datePicker.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/test/mocks/device.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/test/mocks/deviceMotion.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/test/mocks/deviceOrientation.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/test/mocks/dialogs.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/test/mocks/file.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/test/mocks/fileOpener2.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/test/mocks/geolocation.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/test/mocks/globalization.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/test/mocks/googleAnalytics.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/test/mocks/keychain.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/test/mocks/localNotification.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/test/mocks/network.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/test/mocks/push.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/test/mocks/socialSharing.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/test/mocks/splashscreen.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/test/mocks/statusbar.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/test/mocks/toast.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-cordova/test/mocks/vibration.spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-upload/ng-file-upload-shim.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-upload/ng-file-upload-shim.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-upload/ng-file-upload.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/ng-upload/ng-file-upload.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/qrScanner/js/jsqrcode-combined.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/lib/qrScanner/js/qr-scanner.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/templates/chat-detail.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/templates/tab-account.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/templates/tab-chats.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/templates/tab-dash.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/templates/tabs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/LearningExpress.iml" afterPath="$PROJECT_DIR$/.idea/LearningExpress.iml" />
+    <list default="true" id="a5f9ffbc-557c-458c-98b6-d8abf4822c3c" name="Default" comment="agrego server desde apps js">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LearningExpress.iws" />
@@ -490,7 +26,7 @@
       <file leaf-file-name="userPosts.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/userPosts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
+            <state vertical-scroll-proportion="0.0">
               <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding />
             </state>
@@ -500,8 +36,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.4792285">
+              <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -569,17 +105,19 @@
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -602,10 +140,9 @@
       <autoscrollToSource />
       <autoscrollFromSource />
       <sortByType />
-      <manualOrder />
-      <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -634,11 +171,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SistemaMovil" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gadmrMobile" />
+              <option name="myItemId" value="node_modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -652,48 +185,17 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="SistemaMovil" />
+              <option name="myItemId" value="node_modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gadmrMobile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LearningExpress" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gadmr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SistemaMovil" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gadmrMobile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="cors" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -704,7 +206,7 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/SistemaWeb" />
+    <property name="last_opened_file_path" value="C:/Program Files/nodejs/node.exe" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="editor.config.accepted" value="true" />
@@ -725,133 +227,31 @@
       <recent name="C:\Users\MaríaElena\Documents\Web Storm Projects\Default\css\lessChat" />
     </key>
   </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/routes/userPosts.js</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
-  </component>
-  <component name="RunManager" selected="Node.js.bin\www">
+  <component name="RunManager" selected="Node.js.app.js">
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/LearningExpress/public/Views/index.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="app.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="app.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
-    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <method />
     </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
-      <config-file value="" />
-      <node-interpreter value="project" />
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
       <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JsTestDriver-test-runner" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
       <method />
     </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
@@ -864,7 +264,6 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
       <tasks />
@@ -873,39 +272,30 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
-      <scripts />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
-      <node-interpreter>project</node-interpreter>
       <node-options />
       <working-directory />
       <pass-parent-env>true</pass-parent-env>
       <envs />
       <ui>bdd</ui>
       <extra-mocha-options />
-      <test-kind>DIRECTORY</test-kind>
       <test-directory />
       <recursive>false</recursive>
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Node.js.bin\www" />
       <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.app.js" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.app.js" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
-  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -914,7 +304,6 @@
       <changelist id="a5f9ffbc-557c-458c-98b6-d8abf4822c3c" name="Default" comment="" />
       <created>1443412622608</created>
       <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
       <updated>1443412622608</updated>
       <workItem from="1464113599722" duration="845000" />
       <workItem from="1464123180925" duration="1996000" />
@@ -946,84 +335,72 @@
     <task id="LOCAL-00001" summary="pruebas">
       <created>1443412851903</created>
       <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1443412851903</updated>
     </task>
     <task id="LOCAL-00002" summary="pruebas">
       <created>1443603802660</created>
       <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
       <updated>1443603802660</updated>
     </task>
     <task id="LOCAL-00003" summary="pruebas">
       <created>1443660935162</created>
       <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
       <updated>1443660935162</updated>
     </task>
     <task id="LOCAL-00004" summary="pruebas">
       <created>1443662717162</created>
       <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1443662717162</updated>
     </task>
     <task id="LOCAL-00005" summary="pruebas">
       <created>1443665871527</created>
       <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
       <updated>1443665871527</updated>
     </task>
     <task id="LOCAL-00006" summary="pruebas">
       <created>1443773405056</created>
       <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
       <updated>1443773405056</updated>
     </task>
     <task id="LOCAL-00007" summary="pruebas">
       <created>1466652350422</created>
       <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
       <updated>1466652350422</updated>
     </task>
     <task id="LOCAL-00008" summary="pruebas">
       <created>1468191548166</created>
       <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
       <updated>1468191548166</updated>
     </task>
     <task id="LOCAL-00009" summary="no subir">
       <created>1468191643128</created>
       <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
       <updated>1468191643128</updated>
     </task>
     <task id="LOCAL-00010" summary="pruebas">
       <created>1468191766836</created>
       <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
       <option name="project" value="LOCAL" />
       <updated>1468191766836</updated>
     </task>
     <task id="LOCAL-00011" summary="pruebas">
       <created>1468191832565</created>
       <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
       <option name="project" value="LOCAL" />
       <updated>1468191832565</updated>
     </task>
     <task id="LOCAL-00012" summary="pruebas">
       <created>1468193713087</created>
       <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
       <option name="project" value="LOCAL" />
       <updated>1468193713087</updated>
     </task>
@@ -1043,49 +420,49 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2140592" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30699775" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31264108" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32844242" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997773" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.259301" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973261" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3340858" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21354167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295711" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25871173" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30699775" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.312566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32844242" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997773" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973261" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3340858" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.259301" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30777904" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31376976" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32844242" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2140592" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973261" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3340858" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997773" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.259301" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30777904" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31376976" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32844242" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2140592" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973261" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3340858" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997773" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1100,10 +477,11 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="no subir" />
     <MESSAGE value="pruebas" />
-    <option name="LAST_COMMIT_MESSAGE" value="pruebas" />
-    <option name="PRESELECT_EXISTING_CHANGELIST" value="false" />
+    <MESSAGE value="agrego server desde apps js" />
+    <option name="LAST_COMMIT_MESSAGE" value="agrego server desde apps js" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1127,9 +505,24 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/routes/userPosts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/assets/angular-re-captcha.js" />
     <entry file="file://$PROJECT_DIR$/package.json" />
-    <entry file="file://$USER_HOME$/.WebStorm10/system/extLibs/nodejs-v4.1.1-src/core-modules-sources/lib/events.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/request/node_modules/caseless/index.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/request/request.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/express/lib/router/layer.js" />
@@ -1155,7 +548,6 @@
     <entry file="file://$PROJECT_DIR$/public/css/bootstrap.chat.css" />
     <entry file="file://$PROJECT_DIR$/css/lessChat/App/instrucciones.txt" />
     <entry file="file://$PROJECT_DIR$/public/img/qr.png" />
-    <entry file="file://$PROJECT_DIR$/../gadmrMovil/www/index.html" />
     <entry file="file://$PROJECT_DIR$/executables/loadDB.bat" />
     <entry file="file://$PROJECT_DIR$/css/lessChat/variables.less" />
     <entry file="file://$PROJECT_DIR$/node_modules/connect-form/index.html" />
@@ -1178,7 +570,7 @@
     <entry file="file://$PROJECT_DIR$/public/Views/index.html" />
     <entry file="file://$PROJECT_DIR$/routes/userPosts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
+        <state vertical-scroll-proportion="0.0">
           <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding />
         </state>
@@ -1186,8 +578,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SistemaMovil/gadmrMobile/www/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.4792285">
+          <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
           <folding />
         </state>
       </provider>

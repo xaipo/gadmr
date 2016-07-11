@@ -16,10 +16,16 @@
         <div class="col-sm-12 col-md-10 col-lg-offset-1 col" style="padding: 0px;">
           <div class="thumbnail" style="padding: 0px;">
             <div class="text-center"><h2 class="item" data-ng-bind="userPost.title"  style="background-color:#00408B; color: white"></h2><br></div>
+
+            <div class=".col-rigth">
             <h4 class="text-right item" style="border:none !important;"><span
-              ng-class="userPost.state=='Resuelto'?'label-success':'label-warning'" style="border:none !important;"
+              ng-class="userPost.state=='Resuelto'?'label-success':'label-warning'"  ng-style="userPost.state=='Resuelto'?{ 'color': 'green'}:
+                                                        { 'color': 'red'}"style="border:none !important; padding-left: 0px !important;"
               class="item ">Estado: {{userPost.state}}</span>
             </h4>
+            </div>
+
+
 <!--<p>{{userPost.mobilePic.data.data}}</p>-->
             <img class="full-image"  data-ng-show="!userPost.evidence" ng-src="{{userPost.picture?getPostImage(userPost.picture):userPost.mobilePicture;}}"
                  class="img-rounded img-responsive media-object"

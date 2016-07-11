@@ -5,7 +5,7 @@ var path = require('path');
 var express = require('express');
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
-
+var cors = require('cors');
 //routes
 var routes = require('./routes/index');
 var users = require('./routes/users'); //routes are defined here
@@ -14,7 +14,8 @@ var categories = require('./routes/categories');
 
 // Mongo Conection
 var dbName = 'MoviDB';
-var connectionString = 'mongodb://localhost:27017/' + dbName;
+//var connectionString = 'mongodb://localhost:27017/' + dbName;
+var connectionString = 'mongodb://192.168.0.102:27017/' + dbName;
 mongoose.connect(connectionString);
 
 
@@ -25,7 +26,7 @@ var io = require('socket.io')(http);
 //configure body-parser
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
-
+app.use(cors());// permite angular interactuar
 
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/css', express.static(__dirname + '/css'));
@@ -61,6 +62,8 @@ multiparty = require('connect-multiparty'),
 // Example endpoint
 app.post('/api/user/uploads', multipartyMiddleware, UserController.uploadFile);
 
+app.listen(3001);
+console.log("servidor ejecutando en el puerto 3000");
 
 module.exports = app;
 
